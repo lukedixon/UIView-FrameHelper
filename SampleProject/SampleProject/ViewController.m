@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIView+FrameHelper.h"
 
 @interface ViewController ()
 
@@ -14,16 +15,14 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    // Simple samples:
+    NSLog(@"Height: %.2f", [[self view] height]);
+    NSLog(@"Width: %.2f", [[self view] width]);
+    NSLog(@"X: %.2f", [[self view] x]);
+    NSLog(@"Y: %.2f", [[self view] y]);
 }
 
 @end
