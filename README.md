@@ -20,7 +20,7 @@ From the **Source** folder copy **UIView+FrameHelper.h** and **UIView+FrameHelpe
 [[self view] origin];
 ```
 
-###Settings:
+###Setters:
 
 ```
 [[self view] setHeight:100];
