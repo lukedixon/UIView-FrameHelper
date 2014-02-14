@@ -99,6 +99,22 @@
     return [self frame].origin.y;
 }
 
+- (CGFloat)top {
+    return [self y];
+}
+
+- (CGFloat)bottom {
+    return ([self y] + [self height]);
+}
+
+- (CGFloat)left {
+    return [self x];
+}
+
+- (CGFloat)right {
+    return [self x] + [self width];
+}
+
 #pragma mark -
 
 @end

@@ -31,4 +31,9 @@
 - (void)increaseHeight:(CGFloat)deltaHeight;
 - (void)increaseWidth:(CGFloat)deltaWidth;
 
+- (CGFloat)top;
+- (CGFloat)bottom;
+- (CGFloat)left;
+- (CGFloat)right;
+
 @end
