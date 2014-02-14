@@ -18,6 +18,10 @@ From the **Source** folder copy **UIView+FrameHelper.h** and **UIView+FrameHelpe
 [[self view] y];
 [[self view] size];
 [[self view] origin];
+[[self view] top];
+[[self view] bottom];
+[[self view] left];
+[[self view] right];
 ```
 
 ###Setters:
